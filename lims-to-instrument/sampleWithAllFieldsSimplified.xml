@@ -1,0 +1,80 @@
+
+    <SampleSet id="samples">
+
+        <!-- if we want to represent a plate, this is how it would be done -->
+        <Sample name="My Plate" sampleID="plate1" containerType="96 wells" barcode="b987654"/>
+
+        <!-- containerID references the sampleID of the plate -->
+        <Sample sampleID="s1" barcode="s1"name="Blank" locationInContainer="A1" containerID="plate1">
+            <!-- common sample information -->
+            <Category name="Sample Information">
+                <Parameter name="Sample Type" parameterType="String">
+                    <S>Test Sample</S>
+                    <!-- could also be Blank, Wash, Blank with IS, QC, ... -->
+                </Parameter>
+            </Category>
+
+            <!-- one subcategory per analyte -->
+            <Category name="Analytes">
+
+                <!-- attributes describing the 1st analyte -->
+                <Category name="Analyte">
+                    <Parameter name="Substance" parameterType="String">
+                        <S>reserpine</S>
+                    </Parameter>
+                    <Parameter name="Dilution Factor" parameterType="Float32">
+                        <F>0.5</F>
+                    </Parameter>
+                    <Parameter name="Concentration" parameterType="Float32">
+                        <F>1.0</F>
+                    </Parameter>
+                </Category>
+
+                <!-- attributes describing the 2nd analyte -->
+                <Category name="Analyte">
+                    <Parameter name="Substance" parameterType="String">
+                        <S>carbamazepine</S>
+                    </Parameter>
+                    <Parameter name="Dilution Factor" parameterType="Float32">
+                        <F>0.5</F>
+                    </Parameter>
+                    <Parameter name="Concentration" parameterType="Float32">
+                        <F>1.0</F>
+                    </Parameter>
+                </Category>
+            </Category>
+        </Sample>​
+
+        <Sample sampleID="s2" barcode="s2" name="Blank">
+        </Sample>​
+
+        <Sample sampleID="s3" barcode="s3" name="Blank">
+        </Sample>​
+
+        <Sample sampleID="s4" barcode="s4" name="Blank">
+        </Sample>​
+    </SampleSet>
+
+
+    <ExperimentStepSet>
+        <ExperimentStep name="Bioanalysis" experimentStepID="e1">
+
+            <!-- worklist-level parameters -->
+            <Method>
+                <Author userType="human">
+                    <Name>Hamza</Name>
+                </Author>
+
+                <Category name="Worklist Information">
+                    <Parameter name="Project" parameterType="String">
+                        <S>My Study Name</S>
+                    </Parameter>
+                    <Parameter name="Batch Name" parameterType="String">
+                        <S>My Batch Name</S>
+                    </Parameter>
+                </Category>
+            </Method>
+
+            <!-- results will go here -->
+        </ExperimentStep>
+    </ExperimentStepSet>
