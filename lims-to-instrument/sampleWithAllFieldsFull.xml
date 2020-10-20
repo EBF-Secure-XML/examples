@@ -7,7 +7,7 @@
         <Sample name="My Plate" sampleID="plate1" containerType="96 wells" barcode="b987654"/>
 
         <!-- containerID references the sampleID of the plate -->
-        <Sample sampleID="s1" barcode="s1"name="Blank" locationInContainer="A1" containerID="plate1">
+        <Sample sampleID="s1" barcode="s1" name="Blank" locationInContainer="A1" containerID="plate1">
             <!-- common sample information -->
             <Category name="Sample Information">
                 <Parameter name="Sample Type" parameterType="String">
@@ -47,13 +47,13 @@
             </Category>
         </Sample>​
 
-        <Sample sampleID="s2" barcode="s2"name="Blank">
+        <Sample sampleID="s2" barcode="s2" name="Blank">
         </Sample>​
 
-        <Sample sampleID="s3" barcode="s3"name="Blank">
+        <Sample sampleID="s3" barcode="s3" name="Blank">
         </Sample>​
 
-        <Sample sampleID="s4" barcode="s4"name="Blank">
+        <Sample sampleID="s4" barcode="s4" name="Blank">
         </Sample>​
     </SampleSet>
 

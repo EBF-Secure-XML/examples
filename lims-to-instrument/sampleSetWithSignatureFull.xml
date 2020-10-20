@@ -2,16 +2,16 @@
 <AnIML xmlns="urn:org:astm:animl:schema:core:draft:0.90" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:org:astm:animl:schema:core:draft:0.90 http://schemas.animl.org/current/animl-core.xsd" version="0.90">
 
     <SampleSet id="samples">
-        <Sample sampleID="s1" barcode="s1"name="Blank">
+        <Sample sampleID="s1" barcode="s1" name="Blank">
         </Sample>
 
-        <Sample sampleID="s2" barcode="s2"name="Blank">
+        <Sample sampleID="s2" barcode="s2" name="Blank">
         </Sample>​
 
-        <Sample sampleID="s3" barcode="s3"name="Blank">
+        <Sample sampleID="s3" barcode="s3" name="Blank">
         </Sample>​
 
-        <Sample sampleID="s4" barcode="s4"name="Blank">
+        <Sample sampleID="s4" barcode="s4" name="Blank">
         </Sample>​
     </SampleSet>
 
