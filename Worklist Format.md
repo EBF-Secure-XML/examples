@@ -7,14 +7,14 @@ its internal representation.
 
 The following sample types are supported:
 
-| Sample Type   | Description                       | Also known as |
-| ------------- | --------------------------------- |---------------|
-| Test Sample   | The sample under analysis         | Unknown       |
-| Blank with IS |                                   | Control Blank |
-| Blank         | A blank without internal standard | Double Blank  |
-| Standard      |                                   |               |
-| Solvent       |                                   | Wash Blank    |
-| Stability     |                                   |               |
-| Control       |                                   |               |
-| QC            |                                   |               |
-| Other         |                                   |               |
+| Sample Type   | Description                                       | Also known as |
+| ------------- | ------------------------------------------------- |---------------|
+| Test Sample   | Sample under analysis                             | Unknown       |
+| Blank with IS | Blank sample that includes an internal standard   | Control Blank |
+| Blank         | Blank sample without internal standard            | Double Blank  |
+| Standard      |                                                   |               |
+| Solvent       |                                                   | Wash Blank    |
+| Stability     |                                                   |               |
+| Control       |                                                   |               |
+| QC            |                                                   |               |
+| Other         |                                                   |               |
