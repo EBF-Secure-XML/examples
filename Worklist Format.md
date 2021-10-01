@@ -18,3 +18,6 @@ The following sample types are supported:
 | Control       |                                                   |               |
 | QC            |                                                   |               |
 | Other         |                                                   |               |
+
+# Units for Analytes
+This format assumes that a given analyte always uses the same unit across samples within a batch.
