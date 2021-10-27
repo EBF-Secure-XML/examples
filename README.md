@@ -7,6 +7,7 @@ The goal is to provide a secure exchange mechanism for two main interactions:
 * Worklist submission (LIMS to instrument)
 * Result reporting (Instrument to LIMS)
 
+https://www.instrumentlink.org
 
 ### Future improvements
 The project team sees the following opportunities for future
